@@ -12,6 +12,8 @@ class Planalto:
 
     def movimento (self,posicao):
         return self.Min_Lrg <= posicao.x <= self.lrg and self.Min_Alt <= posicao.y <= self.alt
+
+
 #Definir posição inicial
 
 class Posicao:
@@ -27,3 +29,14 @@ class Posicao:
             
 
 #Definir a movimentação da sonda com direção e pontos cardinais
+
+class Sonda:
+
+    COMANDOS = {
+        'M' = 'move',
+        'L' = 'left',
+        'R' = 'right',
+    }
+
+    def __init__(self)
+
