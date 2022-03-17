@@ -33,9 +33,9 @@ class Posicao:
 class Sonda:
 
     COMANDOS = {
-        'M' = 'move',
-        'L' = 'left',
-        'R' = 'right',
+        'M': 'move',
+        'L': 'left',
+        'R': 'right',
     }
 
     def __init__(self)
