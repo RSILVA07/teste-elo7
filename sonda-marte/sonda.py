@@ -39,11 +39,11 @@ class Sonda:
     }
 
     COORDENADAS = {
-        'N': 1
-        'E': 2
-        'S': 3
-        'W': 4
+        'N': 1,
+        'E': 2,
+        'S': 3,
+        'W': 4,
     }
 
-    def __init__(self)
+    def __init__(self):
 
